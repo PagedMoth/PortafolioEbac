@@ -6,4 +6,4 @@
 - M22 - SVM (Máquina de Soporte Vectorial)  
 - M23 - Árbol de decisión
 - M24 - Ensemble
-- M25 - Regresión logistica
+- M25 - Regresión logística
