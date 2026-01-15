@@ -110,17 +110,17 @@ Posteriormente se necesita hacer un despliegue de modelo, nosotros podemos usar 
 Algo que se puede apreciar es que al entrar en la información del modelo como los logs de uso de GCP podemos notar qué tipo de entrenamiento utilizó, en este caso hizo un ordenamiento aleatorio de los datos en 80/10/10 esto quiere decir que utilizó 80 entrenamiento, 10 validación y 10 de prueba.
 
 <div align="center">
-  <img src="Imagenes%20Git%20Hub/Imagen11.png" alt="Imagen 11" width="400"/>
+  <img src="Imagenes%20Git%20Hub/Imagen11.png" alt="Imagen 11" width="600"/>
 </div>
 
 Y dentro de los logs de la consola también podemos observar que utilizó 25 combinaciones de hiper parámetros y fundamentalmente utilizó el modelo de tipo decisiones de árbol aumentado. 
 
 <div align="center">
-  <img src="Imagenes%20Git%20Hub/Imagen12.png" alt="Imagen 12" width="400"/>
+  <img src="Imagenes%20Git%20Hub/Imagen12.png" alt="Imagen 12" width="300"/>
 </div>
 
 <div align="center">
-  <img src="Imagenes%20Git%20Hub/Imagen13.png" alt="Imagen 13" width="600"/>
+  <img src="Imagenes%20Git%20Hub/Imagen13.png" alt="Imagen 13" width="300"/>
 </div>
 
 Para finalizar los resultados del modelo fueron bastante buenos con una r^2= 0.998 y un error porcentual y absoluto muy bajos, por lo que podemos decir que es un buen modelo de predicción. También al sacar la importancia de los atributos con las configuraciones de Google podemos notar que el valor más importante para saber si un cultivo va a darme mucho o poco en rendimiento de toneladas es el tipo de cultivo, es decir si es de arroz, trigo, papa, etc.
