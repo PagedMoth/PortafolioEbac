@@ -75,9 +75,6 @@ En el paso 4 podemos revisar nuevamente la tabla y seleccionar los datos que que
 
 Para esta sección 5 también tiene un peso importante porque aquí depende el tiempo y el dinero que nosotros vamos a destinar que se utilice para que se entrene el modelo de ML, y esto afecta directamente en el tiempo de desarrollo del modelo y en el costo que implica entrenarlo. Para este proyecto se utilizó un nodo/hora.
 
-<div align="center">
-  <img src="Imagenes%20Git%20Hub/Imagen5.png" alt="Imagen 5" width="600"/>
-</div>
 
 Ya que comienza el entrenamiento se puede ver en la sección de Desarrollo de Modelos > Entrenamiento. Para este proyecto se requirieron 2 horas con 1 min.
 
