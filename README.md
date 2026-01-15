@@ -48,10 +48,11 @@ Los datos provienen de **Kaggle**, una plataforma que ofrece múltiples conjunto
 
 ---
 
-## 📷 Instrucciones con Imágenes
-*(Aquí puedes insertar las imágenes que mencionas, usando la sintaxis Markdown)*
+Para entrenar un nuevo modelo debemos ponerle nombre y elegir entre clasificación y regresión. Para este proyecto se utilizó regresión para estimar las toneladas producidas por cultivo.
+Abajo se seleccionó AutoML el método de aprendizaje que ofrece Google con sus modelos de forma sencilla, si quisiéramos utilizar las librerías de pythorch, tenosrflow, etc, se debe seleccionar entrenamiento personalizado.
 
-Ejemplo:
-```markdown
-![Diagrama de flujo](images/flujo_vertex_ai.png)
+<div align="center">
+  <img src="Imagenes%20Git%20Hub/Imagen1.png" alt="Interfaz Vertex AI" width="600"/>
+</div>
+
 
